@@ -1,0 +1,5 @@
+Every Two Minutes
+*/2 * * * * /home/pi/addWeatherCron.sh
+
+At 9 am
+0 9 * * * pkill addWeather.sh
